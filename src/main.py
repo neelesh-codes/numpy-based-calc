@@ -13,6 +13,7 @@ class Calculator:
             expr = int(input("enter the expression  here (no alphabetic symbol): "))
             result = eval(expr)
             print(f"The result is here MR. {details[0]}")
+            
 
 if __name__ == "__main__":
     print("Welcome to the app: let's start now!")
