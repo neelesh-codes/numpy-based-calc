@@ -1,10 +1,18 @@
+from math import *
 import numpy as np
 
+
+details = np.load("D:\\AI Enginerring cource\\numpy based calc\\user Data\\activation.npy")
 class Calculator:
     def basic_clalc(self):
-        pass
+        print("You want to do basic calculation that's ok.")
+        print("Let' start now ")
 
-
+        user_old_new = input("Have you ever used this calculator before: y/n")
+        if user_old_new == 'y':
+            expr = int(input("enter the expression  here (no alphabetic symbol): "))
+            result = eval(expr)
+            print(f"The result is here MR. {details[0]}")
 
 if __name__ == "__main__":
     print("Welcome to the app: let's start now!")
@@ -17,5 +25,3 @@ if __name__ == "__main__":
 
     if type_of_calc == 'b':
         pass
-
-    
