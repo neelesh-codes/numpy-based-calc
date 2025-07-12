@@ -12,3 +12,6 @@ if __name__ == "__main__":
     print(f"Real Name: {details[0]}")
     print(f"Preferd Name: {details[1]}")
 
+    np.save("D:\\AI Enginerring cource\\numpy based calc\\user Data\\activation.npy", details)
+    print("saved to: user Data\\activation.npy file")
+
